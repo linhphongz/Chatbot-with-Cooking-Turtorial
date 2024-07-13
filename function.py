@@ -12,8 +12,6 @@ def get_image_caption(image_path):
     output = model.generate(**inputs, max_new_tokens=25)
     caption = processor.decode(output[0], skip_special_tokens=True)
     return caption
-
-
 if __name__ == '__main__':
     image_path = "./your_path_file"
     caption = get_image_caption(image_path)

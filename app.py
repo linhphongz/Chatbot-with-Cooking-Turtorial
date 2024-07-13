@@ -8,6 +8,3 @@ if file:
 
     #text input
 user_question = st.text_input("Hay cho toi cau hoi cua ban")
-
-
-    
